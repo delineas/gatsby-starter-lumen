@@ -1,37 +1,37 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com/',
-    title: 'Blog by John Doe',
+    url: 'https://webreactiva.com/',
+    title: 'Web Reactiva',
     subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+    copyright: '',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Home',
         path: '/'
       },
       {
-        label: 'About me',
+        label: 'Acerca de',
         path: '/about/'
       },
       {
-        label: 'Contact me',
+        label: 'Contacto',
         path: '/contact/'
       }
     ],
     author: {
-      name: 'John Doe',
+      name: 'Web Reactiva',
       email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#a',
-      ivoox: 'ivoox',
-      itunes: 'itunes',
+      telegram: 'https://t.me/webreactiva',
+      twitter: 'https://twitter.com/webreactiva',
+      github: 'https://github.com/delineas',
+      rss: 'https://www.danielprimo.io/podcast/feed.xml',
+      vk: '#',
+      ivoox: 'http://www.ivoox.com/podcast-web-reactiva_sq_f1454279_1.html',
+      itunes: 'https://itunes.apple.com/es/podcast/web-reactiva/id1285264897?mt=2',
     }
   },
-  pathPrefix: '/gatsby-starter-lumen-podcast',
+  pathPrefix: '/gatsby-starter-lumen-podcast/',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-feed',
       options: {
-        feedURL: 'https://www.ivoox.com/podcast-1bit-memoria_fg_f1469800_filtro_1.xml'
+        feedURL: 'https://www.danielprimo.io/podcast/feed.xml'
       }
     },
     {
