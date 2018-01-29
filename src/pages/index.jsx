@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Post from '../components/Post';
+import Episode from '../components/Episode';
 import Sidebar from '../components/Sidebar';
 
 class IndexRoute extends React.Component {
@@ -8,9 +9,13 @@ class IndexRoute extends React.Component {
     const items = [];
     const { title, subtitle } = this.props.data.site.siteMetadata;
     const posts = this.props.data.allMarkdownRemark.edges;
-    posts.forEach((post) => {
-      items.push(<Post data={post} key={post.node.fields.slug} />);
-    });
+    const episodes = this.props.data.allPodcastFeedItem.edges;
+    // posts.forEach((post) => {
+    //   items.push(<Post data={post} key={post.node.fields.slug} />);
+    // });
+    episodes.forEach((episode) => {
+      items.push(<Episode data={episode} key={episode.node.guid} />) 
+    }); 
 
     return (
       <div>
@@ -50,6 +55,8 @@ export const pageQuery = graphql`
           github
           rss
           vk
+          ivoox
+          itunes
         }
       }
     }
@@ -70,6 +77,17 @@ export const pageQuery = graphql`
             category
             description
           }
+        }
+      }
+    }
+    allPodcastFeedItem (limit: 1000) {
+      edges {
+        node {
+          guid,
+          title,
+          description,
+          published,
+          link
         }
       }
     }
