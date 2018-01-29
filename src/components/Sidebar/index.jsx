@@ -50,6 +50,9 @@ class Sidebar extends React.Component {
             <p className="sidebar__copyright">
               {copyright}
             </p>
+            <Link to="http://www.danielprimo.io/podcast">
+              Web Reactiva
+            </Link>
           </div>
         </div>
       </div>

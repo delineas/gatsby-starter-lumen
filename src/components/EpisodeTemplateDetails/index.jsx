@@ -4,7 +4,7 @@ import moment from 'moment';
 import Disqus from '../Disqus/Disqus';
 import slugify from 'slugify';
 import linkifyHtml from 'linkifyjs/html'
-import Audio from 'react-audioplayer';
+import ReactAudioPlayer from 'react-audio-player';
 import './style.scss';
 
 
@@ -37,11 +37,10 @@ class EpisodeTemplateDetails extends React.Component {
             <h1 className="post-single__title">{post.title}</h1>
             <div className="post-single__body">
               <div className="audio-container">
-              <Audio
-                width={600}
-                height={200}
+              <ReactAudioPlayer
+                src={post.enclosure.url}
                 autoPlay={false}
-                playlist={ playlist }
+                controls
               />
               </div>
               <p dangerouslySetInnerHTML={{ __html: linkifyHtml(post.description).replace(/(?:\r\n|\r|\n)/g, '<br />') }} />
