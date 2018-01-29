@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/gatsby-starter-lumen-podcast/app-2f48e8d90e42d397a9de.js","468f40097f1c249f950ed06f5b51a39b"],["/gatsby-starter-lumen-podcast/commons-4cc4e73a81a4f2fffd2b.js","704a3acf356fa421d2c1756d2dd03c6b"],["/gatsby-starter-lumen-podcast/index.html","f2dc6057da7128ee8d932ed7c313ff0a"],["/gatsby-starter-lumen-podcast/offline-plugin-app-shell-fallback/index.html","724c80e0521f77cd9e4710360a811610"]];
+var precacheConfig = [["/app-2f48e8d90e42d397a9de.js","cc7d6bfb7b8403adf5c563881e4c5c19"],["/commons-4cc4e73a81a4f2fffd2b.js","135b1a8e97ef3d447616979f423006ba"],["/index.html","1ac38853a9a5784118887ad6a9f3cdff"],["/offline-plugin-app-shell-fallback/index.html","5e4528846fdabafcf92aef5d3b5c671b"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
