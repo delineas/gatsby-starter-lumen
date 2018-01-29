@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.scss';
 import '../../assets/fonts/fontello-771c82e0/css/fontello.css';
+import ivooxPic from '../../pages/ivoox.png';
+import itunesPic from '../../pages/itunes.png';
 
 class Links extends React.Component {
   render() {
@@ -11,7 +13,9 @@ class Links extends React.Component {
       github: author.github,
       vk: author.vk,
       rss: author.rss,
-      email: author.email
+      email: author.email,
+      ivoox: author.ivoox,
+      itunes: author.itunes
     };
 
     return (
@@ -49,6 +53,30 @@ class Links extends React.Component {
           <li className="links__list-item">
             <a href={links.rss}>
               <i className="icon-rss" />
+            </a>
+          </li>
+        </ul>
+        <ul className="links__list">
+          <li className="links__list-item">
+            <a href={links.ivoox}>
+              <img
+                src={ivooxPic}
+                className="links__icon"
+                width="24"
+                height="24"
+                alt="ivoox"
+              />
+            </a>
+          </li>
+          <li className="links__list-item">
+            <a href={links.itunes}>
+              <img
+                src={itunesPic}
+                className="links__icon"
+                width="24"
+                height="24"
+                alt="itunes"
+              />
             </a>
           </li>
         </ul>

@@ -26,9 +26,12 @@ module.exports = {
       twitter: '#',
       github: '#',
       rss: '#',
-      vk: '#'
+      vk: '#a',
+      ivoox: 'ivoox',
+      itunes: 'itunes',
     }
   },
+  pathPrefix: '/gatsby-starter-lumen-podcast',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
@@ -36,6 +39,16 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: 'pages'
       }
+    },
+    {
+      resolve: 'gatsby-source-feed',
+      options: {
+        feedURL: 'https://www.ivoox.com/podcast-1bit-memoria_fg_f1469800_filtro_1.xml'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: { trackingId: '' }
     },
     {
       resolve: 'gatsby-plugin-feed',
@@ -115,10 +128,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: '' }
-    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

@@ -24,7 +24,8 @@ class Disqus extends Component {
     if (!config.siteMetadata.disqusShortname) {
       return null;
     }
-    const post = postNode.frontmatter;
+
+    const post = (postNode.frontmatter === undefined) ? postNode : postNode.frontmatter;
     const url = config.siteMetadata.url + postNode.fields.slug;
     return (
       <ReactDisqusComments
