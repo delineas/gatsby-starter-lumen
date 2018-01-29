@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Acerca de"
 layout: page
 path: "/about"
 ---
