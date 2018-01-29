@@ -1,0 +1,2 @@
+webpackJsonp([0x7933eff9b2a9],{382:function(t,o){t.exports={pathContext:{slug:"/posts/the-origins-of-social-stationery-lettering"}}}});
+//# sourceMappingURL=path---posts-the-origins-of-social-stationery-lettering-8e6915a7cd9e8ae201de.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([27289334676535],{379:function(t,p){t.exports={pathContext:{slug:"/posts/humane-typography-in-the-digital-age/"}}}});
+//# sourceMappingURL=path---posts-humane-typography-in-the-digital-age-2204f33dccb209ff28f0.js.map

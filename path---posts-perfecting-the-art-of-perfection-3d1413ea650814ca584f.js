@@ -1,0 +1,2 @@
+webpackJsonp([9943303745503],{380:function(t,e){t.exports={pathContext:{slug:"/posts/perfecting-the-art-of-perfection/"}}}});
+//# sourceMappingURL=path---posts-perfecting-the-art-of-perfection-3d1413ea650814ca584f.js.map
