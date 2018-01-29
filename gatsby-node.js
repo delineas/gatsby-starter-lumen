@@ -4,17 +4,32 @@ const path = require('path');
 const lost = require('lost');
 const pxtorem = require('postcss-pxtorem');
 const slash = require('slash');
+const slugify = require('slugify');
+
+const makeRequest = (graphql, request) => new Promise((resolve, reject) => {  
+  // Query for article nodes to use in creating pages.
+  resolve(
+    graphql(request).then(result => {
+      if (result.errors) {
+        reject(result.errors)
+      }
+
+      return result;
+    })
+  )
+});
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
 
-  return new Promise((resolve, reject) => {
-    const postTemplate = path.resolve('./src/templates/post-template.jsx');
-    const pageTemplate = path.resolve('./src/templates/page-template.jsx');
-    const tagTemplate = path.resolve('./src/templates/tag-template.jsx');
-    const categoryTemplate = path.resolve('./src/templates/category-template.jsx');
+  const postTemplate = path.resolve('./src/templates/post-template.jsx');
+  const episodeTemplate = path.resolve('./src/templates/episode-template.jsx')
+  const pageTemplate = path.resolve('./src/templates/page-template.jsx');
+  const tagTemplate = path.resolve('./src/templates/tag-template.jsx');
+  const categoryTemplate = path.resolve('./src/templates/category-template.jsx');
 
-    graphql(`
+
+  const getMarkdown = makeRequest(graphql, `
     {
       allMarkdownRemark(
         limit: 1000,
@@ -35,10 +50,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       }
     }
   `).then((result) => {
-      if (result.errors) {
-        console.log(result.errors);
-        reject(result.errors);
-      }
+
 
       _.each(result.data.allMarkdownRemark.edges, (edge) => {
         if (_.get(edge, 'node.frontmatter.layout') === 'page') {
@@ -85,10 +97,54 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           });
         }
       });
-
-      resolve();
     });
-  });
+  const getPodcast = makeRequest(graphql, `
+    {
+        allPodcastFeedItem {
+            edges {
+              node {
+                id,
+                guid,
+                title,
+                description,
+                published(formatString: "DD/MM/YYYY"),
+                link
+              }
+            }
+        }
+    }
+    `
+  )
+    .then((result) => {
+
+      // Create Page pages.
+      // We want to create a detailed page for each
+      // page node. We'll just use the Wordpress Slug for the slug.
+      // The Page ID is prefixed with 'PAGE_'
+      _.each(result.data.allPodcastFeedItem.edges, edge => {
+        // Gatsby uses Redux to manage its internal state.
+        // Plugins and sites can use functions like "createPage"
+        // to interact with Gatsby.
+        createPage({
+          // Each page is required to have a `path` as well
+          // as a template component. The `context` is
+          // optional but is often necessary so the template
+          // can query data specific to each page.
+          path: slugify(edge.node.title, {lower: true}),//URL(edge.node.link).pathname.substr(1),
+          component: episodeTemplate,
+          context: {
+            guid: edge.node.guid,
+          },
+        })
+      })
+    });
+
+  
+
+  return Promise.all([
+    getMarkdown,
+    getPodcast,
+  ])
 };
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {

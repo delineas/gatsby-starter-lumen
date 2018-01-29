@@ -1,4 +1,10 @@
-[![GitHub release](https://img.shields.io/github/release/alxshelepenok/gatsby-starter-lumen.svg)](https://github.com/alxshelepenok/gatsby-starter-lumen) [![Code Climate](https://img.shields.io/codeclimate/maintainability/alxshelepenok/gatsby-starter-lumen.svg)](https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/alxshelepenok/gatsby-starter-lumen.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/alxshelepenok/gatsby-starter-lumen)
+# Important Notice
+
+This starter is based on Lumen starter from @alxshelepenok
+
+We only add "gatsby-source-feed" and template variables
+
+ [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/alxshelepenok/gatsby-starter-lumen.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/alxshelepenok/gatsby-starter-lumen)
 
 # Lumen
 
@@ -17,6 +23,11 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 + Offline support.
 + Google Analytics support.
 + Disqus Comments support.
+
+## Features added in "podcast" version
++ [ReactAudioPlayer](https://github.com/wenliangdai/react-audioplayer)
++ Gatsby Source Feed
++ Templates for podcast items
 
 ## Folder Structure
 
@@ -57,7 +68,7 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 
 ## Getting Started
 Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen`
+`gatsby new lumen https://github.com/delineas/gatsby-starter-lumen-podcast`
 
 #### Running in Development
 `gatsby develop`
