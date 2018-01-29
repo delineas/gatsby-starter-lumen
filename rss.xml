@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Web Reactiva]]></title><description><![CDATA[Web Reactiva]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Jan 2018 19:47:54 GMT</lastBuildDate><item><title><![CDATA[Humane Typography in the Digital Age]]></title><description><![CDATA[An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.]]></description><link>https://webreactiva.com//posts/humane-typography-in-the-digital-age/</link><guid isPermaLink="false">https://webreactiva.com//posts/humane-typography-in-the-digital-age/</guid><pubDate>Sat, 19 Aug 2017 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Web Reactiva]]></title><description><![CDATA[Web Reactiva]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Jan 2018 19:50:43 GMT</lastBuildDate><item><title><![CDATA[Humane Typography in the Digital Age]]></title><description><![CDATA[An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.]]></description><link>https://webreactiva.com//posts/humane-typography-in-the-digital-age/</link><guid isPermaLink="false">https://webreactiva.com//posts/humane-typography-in-the-digital-age/</guid><pubDate>Sat, 19 Aug 2017 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.&lt;/p&gt;
 &lt;p&gt;The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.&lt;/p&gt;
 &lt;p&gt;But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.&lt;/p&gt;
 &lt;h2&gt;The first transition&lt;/h2&gt;
@@ -7,7 +7,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-lumen-podcast/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
+    href=&quot;/../static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -26,10 +26,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;42-line-bible.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-lumen-podcast/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
-        srcset=&quot;/gatsby-starter-lumen-podcast/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-6a66e.jpg 240w,
-/gatsby-starter-lumen-podcast/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-bc76f.jpg 480w,
-/gatsby-starter-lumen-podcast/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg 800w&quot;
+        src=&quot;/../static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
+        srcset=&quot;/../static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-6a66e.jpg 240w,
+/../static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-bc76f.jpg 480w,
+/../static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg 800w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
     &lt;/span&gt;
@@ -65,7 +65,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-lumen-podcast/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg&quot;
+    href=&quot;/../static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -84,11 +84,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;type-through-time.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-lumen-podcast/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg&quot;
-        srcset=&quot;/gatsby-starter-lumen-podcast/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-865fd.jpg 240w,
-/gatsby-starter-lumen-podcast/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d40a0.jpg 480w,
-/gatsby-starter-lumen-podcast/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg 960w,
-/gatsby-starter-lumen-podcast/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg 1250w&quot;
+        src=&quot;/../static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg&quot;
+        srcset=&quot;/../static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-865fd.jpg 240w,
+/../static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d40a0.jpg 480w,
+/../static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg 960w,
+/../static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg 1250w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -104,12 +104,12 @@
 &lt;p&gt;&lt;strong&gt;Johannes Gensfleisch zur Laden zum Gutenberg&lt;/strong&gt; (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, and publisher who introduced printing to Europe. His invention of mechanical movable type printing started the Printing Revolution and is widely regarded as the most important event of the modern period. It played a key role in the development of the Renaissance, Reformation, the Age of Enlightenment, and the Scientific revolution and laid the material basis for the modern knowledge-based economy and the spread of learning to the masses.&lt;/p&gt;
 &lt;figure class=&quot;float-right&quot; style=&quot;width: 240px&quot;&gt;
 	
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/gatsby-starter-lumen-podcast/static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/../static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 374px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 128.3422459893048%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAFxLehXJYBWmjgwH//EABsQAAIDAQEBAAAAAAAAAAAAAAECAAMRBBIT/9oACAEBAAEFAum4iBrK2rf2hI3YjFZdV5JyV14rDV5wPpP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAfEAACAgAHAQAAAAAAAAAAAAAAAREhAhASIjFRobH/2gAIAQEABj8C04RX6SOTd8HA+nY7LHJxl//EAB4QAQACAgIDAQAAAAAAAAAAAAEAIRExQVEQcZGB/9oACAEBAAE/IUlcYquWd5HgP0gEf0is3efsU6aL6QIa5zMz1Q9ynDYIVS24QAJjmZSlarx//9oADAMBAAIAAwAAABDwyTz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAfEAEAAgICAgMAAAAAAAAAAAABABEhMUFRYXEQgaH/2gAIAQEAAT8QQiVZ26PU16WOg3QsAalx0JshMuRU4V1f3FBK8UybzfNy8S2r0QjsuzybSCl5ZOS/YeMGPyWUUwLI11aLgw+Pj//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Gutenberg&quot; title=&quot;&quot; src=&quot;/gatsby-starter-lumen-podcast/static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg&quot; srcset=&quot;/gatsby-starter-lumen-podcast/static/Gutenberg-3e20438298edd3a3fa746766d803f379-79241.jpg 240w,
-/gatsby-starter-lumen-podcast/static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg 374w&quot; sizes=&quot;(max-width: 374px) 100vw, 374px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Gutenberg&quot; title=&quot;&quot; src=&quot;/../static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg&quot; srcset=&quot;/../static/Gutenberg-3e20438298edd3a3fa746766d803f379-79241.jpg 240w,
+/../static/Gutenberg-3e20438298edd3a3fa746766d803f379-a74ca.jpg 374w&quot; sizes=&quot;(max-width: 374px) 100vw, 374px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -125,13 +125,13 @@
 &lt;p&gt;Around 1439, Gutenberg was involved in a financial misadventure making polished metal mirrors (which were believed to capture holy light from religious relics) for sale to pilgrims to Aachen: in 1439 the city was planning to exhibit its collection of relics from Emperor Charlemagne but the event was delayed by one year due to a severe flood and the capital already spent could not be repaid. When the question of satisfying the investors came up, Gutenberg is said to have promised to share a “secret”. It has been widely speculated that this secret may have been the idea of printing with movable type. Also around 1439–1440, the Dutch Laurens Janszoon Coster came up with the idea of printing. Legend has it that the idea came to him “like a ray of light”.&lt;/p&gt;
 &lt;figure class=&quot;float-left&quot; style=&quot;width: 240px&quot;&gt;
 	
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/gatsby-starter-lumen-podcast/static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/../static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 754px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 128.91246684350133%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsSAAALEgHS3X78AAAEUklEQVQ4yzWUR0tlSxSF60c4cvBQxIE6UXGiOBBBERXFCKY2Yc4555zbnHPOOeecUXyImBFp9KHy0BZ1Zn/nXroGhzpVtfdea+1VJZ6entbW1k5OTv6VjYODg+3t7a2trY2Njb29vcPDw6OjI77r6+ubm5ss7uzszM3NTUxM3N7eipWVFS8vL39//5iYmMTExNDQ0Pj4+KysLBZ/yIaPjw8rISEhTNzc3FxcXDIzM62trVtbW8Xi4mJkZCRHvb29IyIiAgMDCeAoizY2Nra2thUVFeHh4cydnZ0JNjU1zcvLY97c3CxmZmZYYptzZmZmGhoaSkpK/8iGoqKipqamiYlJW1uboaEhk7i4OL66urr6+vpSZShBsra2luKAcXJyAoKBgYGenp62tnZ6ejpEAFJQUAAWaINZVVVVRUWlurpanJ2ddXZ2RkdHt7e3s52bm8sqqMDm6uoaHByMWmQkGM3c3d3T0tIsLS2VlZUl2ASXl5ezNzg4iGalpaUdHR0cQjz4IxKNQAskNDc3F0KQlGBIwUXc3NwQVlhY2NPTk5SUlJqaWlxcDH5YGRsbA5jmATUoKEhdXZ2kLS0tWlpaCgoK4BV3d3ejo6N1dXX8ABvCDg4OHEJFONvZ2cHip2yQl10w8kWIvr4+cXFxMTAwADBSZmRk0BJHR8fk5GRqWlhYIFtlZWV+fj7BbOno6JSVlbEbGxs7MjIice7t7YUqlYlH3uzsbMQgPZxBCy4iU1JSQATtmpoaWFCMdXF5eTk7Ozs+Pk7PioqKqEMDyQp/RFpYWGDFysqKYDqC1E1NTXQbOYeGhgQ2rq+vJwzZ6BbEOIft6DzBIKJtGIN15tQANis4anh4WOzv75+fn+MTrLa8vExiUmBJctNz5OEc+tECjIXOVAK/r6+vFEzl09NTUuzu7tI6aHOZuDqcDgsLow4sCEBLCqIZLgAIREAqaCPdwkaYgYuGyLBFs4aGBipzlCw5OTl8uTA0Hy2joqL8/PzGxsakW4WY8maQDBkRBpFRG8AeHh40H53ImJCQQDqAIJiRkRE9ElNTU+gJT5boVmNjIx4GSHd3N/ixp6enJ+34/v7m2bi6usKR9Jn7ByipMud4HKqqqshKPpgvLS2trq4iHm6n8+hPXlLgtv7+fpTnhvIrqENxZqTki+nAj/LHx8egRWGkhiRawJZI5OCq2dvbc0bwLCE4bGkspuNVCAgIQGeYoxD25OlAXm6S3HMA4VXijGQSgq+vr0mjpqZGM9hmD/7ya4gT5cai4fxCjbZxFzAMKKQH8OPjgz5xUbArxgQ5BkBCukX6rq4uCLPOnHUi5V5CKcHs/f0dGbmVJMMVnCaevcnJyfn5eb5oMT09jQuIRGQSlZSUSG8Y1iceeWkYYEjBKpG8DfKjzPmiFveJNwfn0k6Y0yDx+fn5+Pj4/Pz8+vr6++94e3t7lY3/ZePl5eU/2Xh4ePglG/f3919fX38AEQttJBy4KAgAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Early Printing Press&quot; title=&quot;&quot; src=&quot;/gatsby-starter-lumen-podcast/static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png&quot; srcset=&quot;/gatsby-starter-lumen-podcast/static/Printing-press-9ec265253f068855f00558a9be7f3e03-309d8.png 240w,
-/gatsby-starter-lumen-podcast/static/Printing-press-9ec265253f068855f00558a9be7f3e03-1d2a3.png 480w,
-/gatsby-starter-lumen-podcast/static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png 754w&quot; sizes=&quot;(max-width: 754px) 100vw, 754px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Early Printing Press&quot; title=&quot;&quot; src=&quot;/../static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png&quot; srcset=&quot;/../static/Printing-press-9ec265253f068855f00558a9be7f3e03-309d8.png 240w,
+/../static/Printing-press-9ec265253f068855f00558a9be7f3e03-1d2a3.png 480w,
+/../static/Printing-press-9ec265253f068855f00558a9be7f3e03-e45ee.png 754w&quot; sizes=&quot;(max-width: 754px) 100vw, 754px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -166,7 +166,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-94ac0.jpg&quot;
+    href=&quot;/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-94ac0.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -185,13 +185,13 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Movable metal type, and composing stick, descended from Gutenberg&apos;s press. Photo by Willi Heidelbach. Licensed under CC BY 2.5&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d564d.jpg&quot;
-        srcset=&quot;/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-865fd.jpg 240w,
-/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d40a0.jpg 480w,
-/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d564d.jpg 960w,
-/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-c67c1.jpg 1440w,
-/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-667be.jpg 1920w,
-/gatsby-starter-lumen-podcast/static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-94ac0.jpg 2288w&quot;
+        src=&quot;/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d564d.jpg&quot;
+        srcset=&quot;/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-865fd.jpg 240w,
+/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d40a0.jpg 480w,
+/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-d564d.jpg 960w,
+/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-c67c1.jpg 1440w,
+/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-667be.jpg 1920w,
+/../static/movable-type-0d1540b9a8fca9db753ad10ae0a3427e-94ac0.jpg 2288w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -220,7 +220,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-5b032.jpg&quot;
+    href=&quot;/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-5b032.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -239,12 +239,12 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d564d.jpg&quot;
-        srcset=&quot;/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-865fd.jpg 240w,
-/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d40a0.jpg 480w,
-/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d564d.jpg 960w,
-/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-c67c1.jpg 1440w,
-/gatsby-starter-lumen-podcast/static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-5b032.jpg 1800w&quot;
+        src=&quot;/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d564d.jpg&quot;
+        srcset=&quot;/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-865fd.jpg 240w,
+/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d40a0.jpg 480w,
+/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-d564d.jpg 960w,
+/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-c67c1.jpg 1440w,
+/../static/1-2c2b7012cc7a218b86a2e5f4fdd1b9c7-5b032.jpg 1800w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -284,7 +284,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-5b032.jpg&quot;
+    href=&quot;/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-5b032.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -303,12 +303,12 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-d564d.jpg&quot;
-        srcset=&quot;/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-865fd.jpg 240w,
-/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-d40a0.jpg 480w,
-/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-d564d.jpg 960w,
-/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-c67c1.jpg 1440w,
-/gatsby-starter-lumen-podcast/static/1-a3057b79175cdcf4a107e8cc2c8f8325-5b032.jpg 1800w&quot;
+        src=&quot;/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-d564d.jpg&quot;
+        srcset=&quot;/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-865fd.jpg 240w,
+/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-d40a0.jpg 480w,
+/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-d564d.jpg 960w,
+/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-c67c1.jpg 1440w,
+/../static/1-a3057b79175cdcf4a107e8cc2c8f8325-5b032.jpg 1800w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -322,7 +322,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-5b032.jpg&quot;
+    href=&quot;/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-5b032.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -341,12 +341,12 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-d564d.jpg&quot;
-        srcset=&quot;/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-865fd.jpg 240w,
-/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-d40a0.jpg 480w,
-/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-d564d.jpg 960w,
-/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-c67c1.jpg 1440w,
-/gatsby-starter-lumen-podcast/static/1-07d3a9ebe902d793eab5fe701b12a6e2-5b032.jpg 1800w&quot;
+        src=&quot;/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-d564d.jpg&quot;
+        srcset=&quot;/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-865fd.jpg 240w,
+/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-d40a0.jpg 480w,
+/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-d564d.jpg 960w,
+/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-c67c1.jpg 1440w,
+/../static/1-07d3a9ebe902d793eab5fe701b12a6e2-5b032.jpg 1800w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
