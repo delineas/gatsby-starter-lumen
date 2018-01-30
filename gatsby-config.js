@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     url: 'https://webreactiva.com/',
     title: 'Web Reactiva',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    subtitle: 'Demostración de la creación de un site estático con Gatsby y un Feed de Podcast',
     copyright: '',
-    disqusShortname: '',
+    disqusShortname: 'delineas-github-io',
     menu: [
       {
         label: 'Home',
@@ -26,12 +26,11 @@ module.exports = {
       twitter: 'https://twitter.com/webreactiva',
       github: 'https://github.com/delineas',
       rss: 'https://www.danielprimo.io/podcast/feed.xml',
-      vk: '#',
       ivoox: 'http://www.ivoox.com/podcast-web-reactiva_sq_f1454279_1.html',
       itunes: 'https://itunes.apple.com/es/podcast/web-reactiva/id1285264897?mt=2',
     }
   },
-  pathPrefix: '/gatsby-starter-lumen-podcast/',
+  pathPrefix: '/gatsby-starter-lumen-podcast',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
