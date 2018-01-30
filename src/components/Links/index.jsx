@@ -11,7 +11,6 @@ class Links extends React.Component {
       telegram: author.telegram,
       twitter: author.twitter,
       github: author.github,
-      vk: author.vk,
       rss: author.rss,
       email: author.email,
       ivoox: author.ivoox,

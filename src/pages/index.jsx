@@ -8,13 +8,14 @@ class IndexRoute extends React.Component {
   render() {
     const items = [];
     const { title, subtitle } = this.props.data.site.siteMetadata;
+    const pathPrefix = this.props.data.site.pathPrefix;
     const posts = this.props.data.allMarkdownRemark.edges;
     const episodes = this.props.data.allPodcastFeedItem.edges;
     // posts.forEach((post) => {
     //   items.push(<Post data={post} key={post.node.fields.slug} />);
     // });
     episodes.forEach((episode) => {
-      items.push(<Episode data={episode} key={episode.node.guid} />) 
+      items.push(<Episode data={ {episode, pathPrefix} } key={episode.node.guid} />) 
     }); 
 
     return (
@@ -39,6 +40,7 @@ export default IndexRoute;
 export const pageQuery = graphql`
   query IndexQuery {
     site {
+      pathPrefix,
       siteMetadata {
         title
         subtitle
@@ -54,7 +56,6 @@ export const pageQuery = graphql`
           twitter
           github
           rss
-          vk
           ivoox
           itunes
         }
