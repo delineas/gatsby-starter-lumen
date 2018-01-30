@@ -6,8 +6,9 @@ import './style.scss';
 
 class Episode extends React.Component {
   render() {
-    const { guid, title, description, published, link } = this.props.data.node;
-    const slug = slugify(this.props.data.node.title, {lower: true});
+    
+    const { guid, title, description, published, link } = this.props.data.episode.node;
+    const slug = slugify('/'+title, {lower: true, remove: /[$*_+~.()'"!\-:@]/g});
 
     return (
       <div className="post">
@@ -20,11 +21,12 @@ class Episode extends React.Component {
         <h2 className="post__title">
           <Link className="post__title-link" to={slug}>{title}</Link>
         </h2>
-        <p className="post__description">{description}</p>
+        
         <Link className="post__readmore" to={slug}>Read</Link>
       </div>
     );
   }
 }
+// <p className="post__description">{description}</p>
 
 export default Episode;

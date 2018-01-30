@@ -130,7 +130,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           // as a template component. The `context` is
           // optional but is often necessary so the template
           // can query data specific to each page.
-          path: slugify(edge.node.title, {lower: true}),//URL(edge.node.link).pathname.substr(1),
+          path: slugify('/'+edge.node.title, {lower: true, remove: /[$*_+~.()'"!\-:@]/g}),//URL(edge.node.link).pathname.substr(1),
           component: episodeTemplate,
           context: {
             guid: edge.node.guid,

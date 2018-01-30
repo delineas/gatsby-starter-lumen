@@ -13,7 +13,7 @@ class EpisodeTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata;
     const post = this.props.data.allPodcastFeedItem.edges[0].node;
     post.fields = {};
-    post.fields.slug = slugify(post.title, {lower: true});
+    post.fields.slug = slugify('/'+post.title, {lower: true, remove: /[$*_+~.()'"!\-:@]/g});
 
     const playlist = [{src: post.enclosure.url}];
 
