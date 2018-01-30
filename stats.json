@@ -9,16 +9,16 @@
       "path---wr-13-asi-creamos-nuestro-primer-chatbot-6a902c187954a6980a44.js.map"
     ],
     "path---posts-perfecting-the-art-of-perfection": [
-      "path---posts-perfecting-the-art-of-perfection-ab9f8487f03870d39fb7.js",
-      "path---posts-perfecting-the-art-of-perfection-ab9f8487f03870d39fb7.js.map"
+      "path---posts-perfecting-the-art-of-perfection-3cf4d8bd47da2738724e.js",
+      "path---posts-perfecting-the-art-of-perfection-3cf4d8bd47da2738724e.js.map"
     ],
     "component---src-templates-page-template-jsx": [
       "component---src-templates-page-template-jsx-994fa15cdac2f9049e27.js",
       "component---src-templates-page-template-jsx-994fa15cdac2f9049e27.js.map"
     ],
     "path---posts-the-birth-of-movable-type": [
-      "path---posts-the-birth-of-movable-type-780ea19e9ab0e7173767.js",
-      "path---posts-the-birth-of-movable-type-780ea19e9ab0e7173767.js.map"
+      "path---posts-the-birth-of-movable-type-473271b5ddd9f7729e54.js",
+      "path---posts-the-birth-of-movable-type-473271b5ddd9f7729e54.js.map"
     ],
     "path---tags-linotype": [
       "path---tags-linotype-7732bf496db17270e498.js",
@@ -33,8 +33,8 @@
       "path---wr-11-alternativas-a-wordpress-hay-alguien-ahi-fuera-62c72f6b03528d8e0647.js.map"
     ],
     "path---posts-humane-typography-in-the-digital-age": [
-      "path---posts-humane-typography-in-the-digital-age-a0622d90b516808962d2.js",
-      "path---posts-humane-typography-in-the-digital-age-a0622d90b516808962d2.js.map"
+      "path---posts-humane-typography-in-the-digital-age-047a197f5f68faa69f56.js",
+      "path---posts-humane-typography-in-the-digital-age-047a197f5f68faa69f56.js.map"
     ],
     "path---categories": [
       "path---categories-266cced05eea4cc9ef2c.js",
@@ -100,6 +100,10 @@
       "path---tags-helvetica-6891aec90e960e5fdbd1.js",
       "path---tags-helvetica-6891aec90e960e5fdbd1.js.map"
     ],
+    "path---wr-20-sitios-estaticos-y-datos-dinamicos-con-gatsby": [
+      "path---wr-20-sitios-estaticos-y-datos-dinamicos-con-gatsby-d256ad2a7fe38c41d253.js",
+      "path---wr-20-sitios-estaticos-y-datos-dinamicos-con-gatsby-d256ad2a7fe38c41d253.js.map"
+    ],
     "path---categories-design-inspiration": [
       "path---categories-design-inspiration-ee27acc9a35a60b8aac7.js",
       "path---categories-design-inspiration-ee27acc9a35a60b8aac7.js.map"
@@ -117,12 +121,12 @@
       "path---wr-4-stripe-el-gran-salto-de-los-pagos-online-3a96aa30390d357f1bd5.js.map"
     ],
     "component---src-templates-post-template-jsx": [
-      "component---src-templates-post-template-jsx-0c3c15cbc4489909df10.js",
-      "component---src-templates-post-template-jsx-0c3c15cbc4489909df10.js.map"
+      "component---src-templates-post-template-jsx-63598d2dcaeafd35969d.js",
+      "component---src-templates-post-template-jsx-63598d2dcaeafd35969d.js.map"
     ],
     "component---src-templates-episode-template-jsx": [
-      "component---src-templates-episode-template-jsx-ba429f47123cb812aec5.js",
-      "component---src-templates-episode-template-jsx-ba429f47123cb812aec5.js.map"
+      "component---src-templates-episode-template-jsx-e411abaf2dd4d7460eba.js",
+      "component---src-templates-episode-template-jsx-e411abaf2dd4d7460eba.js.map"
     ],
     "path---tags-history-of-typography": [
       "path---tags-history-of-typography-468831b25e78bc9aab40.js",
@@ -133,8 +137,8 @@
       "path---tags-lettering-b6bd1bcd2ffcffc65ac0.js.map"
     ],
     "path---posts-the-origins-of-social-stationery-lettering": [
-      "path---posts-the-origins-of-social-stationery-lettering-84eb8ce347f5138a4071.js",
-      "path---posts-the-origins-of-social-stationery-lettering-84eb8ce347f5138a4071.js.map"
+      "path---posts-the-origins-of-social-stationery-lettering-719f2bc668a53274d23e.js",
+      "path---posts-the-origins-of-social-stationery-lettering-719f2bc668a53274d23e.js.map"
     ],
     "path---tags-gatsby": [
       "path---tags-gatsby-bd1912b0ca95df0d11ee.js",
@@ -149,8 +153,8 @@
       "component---src-pages-categories-jsx-e329bc8c8d1b04d0c59b.js.map"
     ],
     "path---index": [
-      "path---index-cdc14e73dc3ba1da8a8b.js",
-      "path---index-cdc14e73dc3ba1da8a8b.js.map"
+      "path---index-7044f09951e8f5042ec3.js",
+      "path---index-7044f09951e8f5042ec3.js.map"
     ],
     "path---wr-5-la-historia-de-los-pequenos-objetos-y-la-web-de-componentes": [
       "path---wr-5-la-historia-de-los-pequenos-objetos-y-la-web-de-componentes-65f34c05d520feece7e7.js",
@@ -183,8 +187,8 @@
       "component---src-pages-404-jsx-3d0441dd1a11b2f3a35b.js.map"
     ],
     "path---contact": [
-      "path---contact-3a91460b0b9e72801ef7.js",
-      "path---contact-3a91460b0b9e72801ef7.js.map"
+      "path---contact-808b791c65158088d174.js",
+      "path---contact-808b791c65158088d174.js.map"
     ],
     "path---wr-12-marketing-online-y-desarrollo-web-con-oscar-martin": [
       "path---wr-12-marketing-online-y-desarrollo-web-con-oscar-martin-aa4c86f543e6bf50e927.js",
@@ -211,8 +215,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-4229de5de9f51657ba9e.js",
-      "component---src-pages-index-jsx-4229de5de9f51657ba9e.js.map"
+      "component---src-pages-index-jsx-23073f8aa1f2aed1fca3.js",
+      "component---src-pages-index-jsx-23073f8aa1f2aed1fca3.js.map"
     ],
     "path---wr-2-la-trampa-de-las-plantillas-premium": [
       "path---wr-2-la-trampa-de-las-plantillas-premium-13f965d16b522eed4374.js",
@@ -223,8 +227,8 @@
       "path---tags-monotype-a2c3c9b694c049f938cb.js.map"
     ],
     "app": [
-      "app-ecd41f8f3e81e766e0ff.js",
-      "app-ecd41f8f3e81e766e0ff.js.map"
+      "app-90a8f912d78b16e729bc.js",
+      "app-90a8f912d78b16e729bc.js.map"
     ],
     "path---wr-14-blockchain-explicado-como-si-se-entendiera": [
       "path---wr-14-blockchain-explicado-como-si-se-entendiera-de831f76149cf3ee9358.js",
@@ -235,8 +239,8 @@
       "path---tags-web-development-980d39544e48b7610932.js.map"
     ],
     "path---posts-a-brief-history-of-typography": [
-      "path---posts-a-brief-history-of-typography-baba773e2ecd549b0a83.js",
-      "path---posts-a-brief-history-of-typography-baba773e2ecd549b0a83.js.map"
+      "path---posts-a-brief-history-of-typography-0e77be5040d571ad7a58.js",
+      "path---posts-a-brief-history-of-typography-0e77be5040d571ad7a58.js.map"
     ],
     "path---404": [
       "path---404-a8c59afc70891a5f3e28.js",
@@ -251,8 +255,8 @@
       "path---wr-17-programar-en-kotlin-con-borja-quevedo-14ef2fb36650fb99fba4.js.map"
     ],
     "path---about": [
-      "path---about-0d3a5054cf6ec6f7d215.js",
-      "path---about-0d3a5054cf6ec6f7d215.js.map"
+      "path---about-de2deca14b502dec5776.js",
+      "path---about-de2deca14b502dec5776.js.map"
     ]
   }
 }
