@@ -26,36 +26,6 @@ class EpisodeTemplate extends React.Component {
 
 export default EpisodeTemplate;
 
-// export const pageQuery = graphql`
-//   query PostBySlug($slug: String!) {
-//     site {
-//       siteMetadata {
-//         title
-//         subtitle
-//         copyright
-//         author {
-//           name
-//           twitter
-//         }
-//       }
-//     }
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       id
-//       html
-//       fields {
-//         tagSlugs
-//       }
-//       frontmatter {
-//         title
-//         tags
-//         date
-//         description
-//       }
-//     }
-//   }
-// `;
-
-
 export const pageQuery = graphql`
   query currentPostQuery($guid: String!) {
     site {
